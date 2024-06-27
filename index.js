@@ -45,12 +45,6 @@ function fetchurl() {
 }
 
 function clickme() {
-    if (text.value === '') {
-        document.getElementById('errorName').textContent = '*Required'
-    }
-    if (password.value === '') {
-        document.getElementById('errorPassword').textContent = '*Required'
-    }
     if ((text.value !== '') && (password.value !== "")) {
         let Display = document.getElementById('Display')
         Display.textContent = 'Hii ' + text.value + '! Welcome to Food Guide'
