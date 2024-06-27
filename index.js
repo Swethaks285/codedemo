@@ -45,7 +45,6 @@ function fetchurl() {
 }
 
 function clickme() {
-    if ((text.value !== '') && (password.value !== "")) {
         let Display = document.getElementById('Display')
         Display.textContent = 'Hii ' + text.value + '! Welcome to Food Guide'
         Display.classList.add('displayBox')
@@ -55,6 +54,5 @@ function clickme() {
         password.value = ''
         alert('Congratulations! You have successfully Logged In')
         document.getElementById("displaystyle").style.display = 'block'
-    }
 
 }
